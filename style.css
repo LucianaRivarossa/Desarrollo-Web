@@ -8,7 +8,6 @@ h1{
     text-align: center;
     font-size: 50px;
     padding: 20px;
-   
 }
 h2{
     text-align: center;
@@ -33,19 +32,15 @@ h2{
     margin:20px auto;
     transition: all 2s;
 }
-
 .boton:hover{
     transform: scale(2);
-
 } 
 .nav-link{
     color:black;
 }
 .nav-item .nav-link:hover{
     text-decoration:underline solid;
-    
 }
-
 .navbar-brand {
     width: 10%;
     height:10%;
@@ -58,7 +53,6 @@ h2{
     text-align: center;
     background-color:whitesmoke;
 }
-
 .logo img{
     width: 10%;
     height:10%;
@@ -85,22 +79,22 @@ h2{
 .collapse navbar-collapse{
     text-align:center;
 }
-
 .encabezado{
     position: sticky;
     top:0;
-    z-index:999;
-     
-
+    z-index:999;     
 }
 .iconos{
     background-color:rgb(226, 129, 60);
-
 }
-
 p{
     font-size: 100%;
     text-align: center;
     margin: 15px;
     font-family: 'Poppins', sans-serif;
+}
+@media screen and (max-width: 768px){
+    .carousel{
+        display:none;
+    }
 }
