@@ -54,16 +54,16 @@
                     <a class="nav-link " aria-current="page" href="../index.html">HOME</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="./productos.html">CATÁLOGO</a>
+                    <a class="nav-link " href="./productos.html">CATÁLOGO</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./quienessomos.html">¿QUIÉNES SOMOS?</a>
+                    <a class="nav-link " href="./quienessomos.html">¿QUIÉNES SOMOS?</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./promociones.html">PROMOCIONES</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./contacto.html ">CONTACTO</a>
+                    <a class="nav-link active" href="./contacto.html ">CONTACTO</a>
                   </li>
                 </ul>
               </div>
@@ -71,57 +71,62 @@
         </nav>
     </header>
     <main class="principal">
-        <h1>Nuestros productos</h1> 
+        <h1>Contacto</h1> 
         <div> 
-            <h2>Galería:</h2>
+            <h2>Formulario de contacto</h2>
         </div>
-        <div> 
-            <p>En esta sección mostramos la galería de tortas modelo que hemos realizado para que elijas la de tu agrado. ¡También hacemos a pedido!</p>
-        </div>      
-        <section class="container">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="card text-center galeria">
-                        <div class="card-body">
-                          <h5 class="card-title">Torta de chocolate </h5>
-                          <p class="card-text">Precio $5.000</p>
+                    <form class="formulario">
+                        <div class="mb-3">
+                             <label for="exampleInputEmail1" class="form-label">Nombre completo</label>
+                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         </div>
-                        <div class="card-body imagengaleria">
-                            <img src="../imagenes/pasteleria1.jpg" alt="imagen de torta modelo 2">  
+                        <div class="mb-3">
+                             <label for="exampleInputPassword1" class="form-label">Email</label>
+                             <input type="password" class="form-control" id="exampleInputPassword1">
+                             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                         </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Consulta</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <label for="exampleInputEmail1" class="form-label">Seleccione que tipo de torta le interesa: </label>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Torta para eventos</label>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Torta decoradas</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <button type="reset" class="btn btn-primary">Restablecer</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                   
+                    <img src="../imagenes/formulario.jpg"  class="img-fluid"  alt="...">
+                </div>
+            <div> 
+        </div>
+        <div>
+            <h2>¿Dónde estamos?</h2>
+        </div>   
+        <div class="container">
+            <div class="row justify-content-center">
+                 <div class="col-lg-12 col-md-12 col-sm-12">   
+                    <div class="card border-dark text-center">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6811.972985381408!2d-64.22910447552447!3d-31.386935966752812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298dc7f1ef32f%3A0xb2ccbb4169dc1f77!2sBajo%20Palermo%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1657852150880!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                    <div class="card text-center galeria">
-                        <div class="card-body">
-                          <h5 class="card-title">Torta con números  </h5>
-                          <p class="card-text">Precio $10.000</p>
-                        </div>
-                        <div class="card-body imagengaleria">
-                            <img src="../imagenes/pasteleria2.jpg" alt="imagen de torta modelo 2">  
-                        </div>                       
-                    </div>                     
-                </div> 
-                <div class="col-lg-6 col-md-12  col-sm-12 ">
-                    <div class="card text-center galeria">
-                        <div class="card-body ">
-                          <h5 class="card-title">Torta Lemon Pie </h5>
-                          <p class="card-text">Precio $5.000</p>
-                        </div>
-                        <div class="card-body imagengaleria ">
-                            <img src="../imagenes/pasteleria3.jpg" alt="imagen de torta modelo 2">  
-                        </div>
-                    </div>
-                    <div class="card text-center galeria">
-                        <div class="card-body ">
-                          <h5 class="card-title">Torta de cumpleaños estilo Toy Story  </h5>
-                          <p class="card-text">Precio $10.000</p>
-                        </div>
-                        <div class="card-body imagengaleria">
-                            <img src="../imagenes/pasteleria4.jpg" alt="imagen de torta modelo 2">  
-                        </div>                       
-                    </div>                     
-                </div>                           
+                </div>
             </div>
-        </section>                
+        </div>
+            
+       
+
+                             
     </main>
     <footer class="footer">
         <ul >

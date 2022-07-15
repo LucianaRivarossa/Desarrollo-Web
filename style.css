@@ -82,7 +82,8 @@ h2{
 .encabezado{
     position: sticky;
     top:0;
-    z-index:999;     
+    z-index:999;  
+    width: 100%;   
 }
 .iconos{
     background-color:rgb(226, 129, 60);
@@ -92,6 +93,25 @@ p{
     text-align: center;
     margin: 15px;
     font-family: 'Poppins', sans-serif;
+}
+.parrafo{
+    border:solid 1px;
+    margin: 50px;
+}
+.table{
+    margin:50px;
+    width:100%;
+}
+.formulario{
+ 
+    width:100%;
+    padding:30px;
+    border:solid 1px;
+    
+}
+iframe{
+    width:100%;
+    text-align: center;
 }
 @media screen and (max-width: 425px){
     .carousel{
