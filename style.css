@@ -69,7 +69,6 @@ h2{
     width:100%;
 }
 .cabecera__lista{
-
   background-color: white;
   border:solid 1px;
 }
@@ -84,9 +83,38 @@ h2{
     top:0;
     z-index:999;  
     width: 100%;   
+    background-color:white;
 }
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.redes{
+    display: flex;
+    flex-direction:row ;
+    justify-content:flex-start;
+}
+.redes_item a{
+    text-decoration: none;
+    color:black;
+    
+   
+}
+.redes_item{
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.buscar_item{
+    margin: 15px;
+}
+
 .iconos{
     background-color:rgb(226, 129, 60);
+    height: 100%;
+    width:100%;
 }
 p{
     font-size: 100%;
