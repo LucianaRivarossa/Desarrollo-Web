@@ -110,7 +110,13 @@ ul{
 .buscar_item{
     margin: 15px;
 }
+.index_menu:hover{
+ transform:scale(1.1);
 
+}
+.index_menu{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 .iconos{
     background-color:rgb(226, 129, 60);
     height: 100%;
