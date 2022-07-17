@@ -57,7 +57,12 @@ h2{
     justify-content: center;
     
 }
-
+.chef_ayuda{
+    width:110px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
 .logo img{
     width: 10%;
     height:10%;
@@ -65,15 +70,13 @@ h2{
 .container{
     margin-top: 50px;
     margin-bottom: 50px;
-    
 }
-
 .container_galeria:hover img {
     -webkit-transform:scale(1.3);transform:scale(1.3);
+    transition: transform 2s;
 }
 .container_galeria{
    overflow:hidden;
-    
 }
 .galeria{
     margin-bottom:10px;
@@ -112,8 +115,6 @@ ul{
 .redes_item a{
     text-decoration: none;
     color:black;
-    
-   
 }
 .redes_item{
     margin-top: 20px;
@@ -124,11 +125,11 @@ ul{
     margin: 15px;
 }
 .index_menu:hover{
- transform:scale(1.1);
-
+    transform:scale(1.1);
+    transition: transform 1s;
 }
 .titulo_index{
-display:none;
+    display:none;
 }
 .index_menu{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -167,6 +168,9 @@ iframe{
     .index_menu{
      margin-left: 25%;
     }
+    .chef_ayuda{
+        width:90px;
+    }
  }
 @media screen and (max-width: 425px){
     .carousel{
@@ -177,6 +181,10 @@ iframe{
     }
     .index_menu{
         margin-left: 0%;
-       }
+    }
+    .chef_ayuda{
+        display:none;
+    }
+      
 }
 
