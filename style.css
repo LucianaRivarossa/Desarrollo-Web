@@ -42,8 +42,8 @@ h2{
     text-decoration:underline solid;
 }
 .navbar-brand {
-    width: 10%;
-    height:10%;
+    width: 7%;
+    height:7%;
 }
 .navbar-brand img {
     width: 100%;
@@ -64,7 +64,7 @@ h2{
     bottom: 15px;
 }
 .logo img{
-    width: 10%;
+    width: 5%;
     height:10%;
 }
 .container{
@@ -111,18 +111,29 @@ ul{
     display: flex;
     flex-direction:row ;
     justify-content:flex-start;
+    
 }
 .redes_item a{
     text-decoration: none;
     color:black;
 }
 .redes_item{
-    margin-top: 20px;
+    margin-top: 12px;
     margin-left: 5px;
     margin-right: 5px;
 }
 .buscar_item{
-    margin: 15px;
+    margin: 10px;
+}
+.buscar_item input{
+    height:30px;
+}
+.buscar_item button{
+    height:30px;
+    padding-right:5px;
+    padding-left:5px;
+    padding-top:0px;
+    padding-bottom:0px;
 }
 .index_menu:hover{
     transform:scale(1.1);
