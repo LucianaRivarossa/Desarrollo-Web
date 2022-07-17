@@ -49,10 +49,15 @@ h2{
     width: 100%;
     height:100%;
 }
+
 .footer{
     text-align: center;
-    background-color:whitesmoke;
 }
+.footer .redes{
+    justify-content: center;
+    
+}
+
 .logo img{
     width: 10%;
     height:10%;
@@ -60,6 +65,14 @@ h2{
 .container{
     margin-top: 50px;
     margin-bottom: 50px;
+    
+}
+
+.container_galeria:hover img {
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+.container_galeria{
+   overflow:hidden;
     
 }
 .galeria{
@@ -114,6 +127,9 @@ ul{
  transform:scale(1.1);
 
 }
+.titulo_index{
+display:none;
+}
 .index_menu{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -147,8 +163,20 @@ iframe{
     width:100%;
     text-align: center;
 }
+@media screen and (max-width: 768px){
+    .index_menu{
+     margin-left: 25%;
+    }
+ }
 @media screen and (max-width: 425px){
     .carousel{
         display:none;
     }
+    .titulo_index{
+        display:block;
+    }
+    .index_menu{
+        margin-left: 0%;
+       }
 }
+
