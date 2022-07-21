@@ -1,6 +1,6 @@
 .container{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: $marginTopContainer;
+    margin-bottom: $marginBottomContainer;
     &_galeria:hover img{
     -webkit-transform:scale(1.3);transform:scale(1.3);
     transition: transform 2s;
