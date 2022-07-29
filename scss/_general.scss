@@ -3,16 +3,18 @@
     padding: 0;
 }
 h1{
-    color:$colorh1;
-    font-family: $tipoLetra;
+    font:{
+        family: map-get($tipoletra , "letraGeneral");
+        size: 50px;
+    }
+    color:map-get($colores , "colorh1");
     text-align: center;
-    font-size: 50px;
     padding: 20px;
 }
 h2{
     text-align: center;
     margin: 10px;
-    font-family: $tipoLetra;
+    font-family: map-get($tipoletra , "letraGeneral");
 }
 .encabezado{
     position: sticky;
@@ -49,9 +51,11 @@ h2{
       color:black;
   }
   .redes_item{
-      margin-top: 12px;
-      margin-left: 5px;
-      margin-right: 5px;
+    margin{
+        top: 12px;
+        left: 5px;
+        right: 5px;
+    }
   }
   .buscar_item{
       margin: 10px;
