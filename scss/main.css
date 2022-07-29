@@ -4,10 +4,10 @@
 }
 
 h1 {
-  color: rgb(182, 148, 35);
   font-family: "Poppins", sans-serif;
-  text-align: center;
   font-size: 50px;
+  color: rgb(182, 148, 35);
+  text-align: center;
   padding: 20px;
 }
 
@@ -53,16 +53,14 @@ ul {
   flex-direction: row;
   justify-content: flex-start;
 }
-
-.redes_item a {
-  text-decoration: none;
-  color: black;
-}
-
 .redes_item {
   margin-top: 12px;
   margin-left: 5px;
   margin-right: 5px;
+}
+.redes_item a {
+  text-decoration: none;
+  color: black;
 }
 
 .buscar_item {
@@ -155,6 +153,13 @@ p {
     display: none;
   }
 }
+.galeria {
+  margin-bottom: 10px;
+}
+.galeria_imagen img {
+  width: 100%;
+}
+
 .container {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -167,12 +172,6 @@ p {
   overflow: hidden;
 }
 
-.galeria {
-  margin-bottom: 10px;
-}
-.galeria_imagen img {
-  width: 100%;
-}
 .table {
   margin: 50px;
   width: 100%;

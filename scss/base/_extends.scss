@@ -1,0 +1,24 @@
+@mixin redes ($display,$flex-direction, $justify-content){
+    display: $display;
+    flex-direction: $flex-direction ;
+    justify-content:$justify-content;
+}
+
+@mixin encabezado ($bgcolor,$zindex){
+    position: sticky;
+    top:0;
+    z-index:$zindex;  
+    width: 100%;   
+    background-color:$bgcolor;
+}
+
+@mixin iconos ($color,$height,$width){
+    background-color:$color;
+    height: $height;
+    width:$width;
+
+}
+@mixin cabecera__lista($bgcolor) {
+    background-color: $bgcolor;
+    border:solid 1px;
+}

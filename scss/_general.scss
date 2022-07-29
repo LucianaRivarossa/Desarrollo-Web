@@ -1,12 +1,11 @@
+@import './base/extends';
 *{
     margin: 0;
     padding: 0;
 }
 h1{
-    font:{
-        family: map-get($tipoletra , "letraGeneral");
-        size: 50px;
-    }
+    font-family: $tipoletra;
+    font-size: 50px;
     color:map-get($colores , "colorh1");
     text-align: center;
     padding: 20px;
@@ -14,56 +13,47 @@ h1{
 h2{
     text-align: center;
     margin: 10px;
-    font-family: map-get($tipoletra , "letraGeneral");
+    font-family: $tipoletra;
 }
 .encabezado{
-    position: sticky;
-    top:0;
-    z-index:999;  
-    width: 100%;   
-    background-color:white;
+    @include encabezado (white,999);
 }
 .cabecera__lista{
-    background-color: white;
-    border:solid 1px;
+     @include cabecera__lista (white);
   }
-  .active{
+.active{
       text-decoration:underline solid;
   }
-  .collapse navbar-collapse{
+.collapse navbar-collapse{
       text-align:center;
   }
   
-  a{
+a{
       text-decoration: none;
   }
-  ul{
+ul{
       list-style: none;
   }
-  .redes{
-      display: flex;
-      flex-direction:row ;
-      justify-content:flex-start;
-      
-  }
-  .redes_item a{
-      text-decoration: none;
-      color:black;
-  }
-  .redes_item{
-    margin{
-        top: 12px;
-        left: 5px;
-        right: 5px;
+.redes{
+   @include redes(flex, row, flex-start);
+   &_item{
+    margin-top: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    a{
+        text-decoration: none;
+        color:black;
     }
-  }
-  .buscar_item{
+   }
+      
+}
+.buscar_item{
       margin: 10px;
   }
-  .buscar_item input{
+.buscar_item input{
       height:30px;
   }
-  .nav-link{
+.nav-link{
     color:black;
 }
 .nav-item .nav-link:hover{
@@ -86,6 +76,7 @@ h2{
     justify-content: center;
     
 }
+
 .chef_ayuda{
     width:110px;
     position: fixed;
@@ -93,9 +84,7 @@ h2{
     bottom: 15px;
 }
 .iconos{
-    background-color:$colorNavBar;
-    height: 100%;
-    width:100%;
+    @include iconos($colorNavBar, 100%, 100%)
 }
 .logo img{
     width: 5%;

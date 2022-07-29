@@ -1,0 +1,24 @@
+Index: 
+Keywords: Agregué: "torta, tortas, pastel, dulce, chocolate, cumpleaños, fiesta, eventos, evento, infantil, tarta "
+Descripción: "Emprendimiento dedicado a realizar tortas para eventos varios. Contamos con tortas decoradas, para fiestas y cualqueir evento"
+Título: Modifique el título a: Pastelería Delicias|Index
+
+Contacto:
+Keywords: Agregué: "contacto, torta, tortas, pastel, dulce, chocolate, cumpleaños, fiesta, eventos, evento, infantil, tarta "
+Descripción: "Emprendimiento dedicado a realizar tortas para eventos varios. Te mostramos donde encontrarnos"
+Título: Modifique el título a: Pastelería Delicias|Contacto
+
+Quienes somos: 
+Keywords: Agregué: "quienes somos, torta, tortas, pastel, dulce, chocolate, cumpleaños, fiesta, eventos, evento, infantil, tarta "
+Descripción: "Emprendimiento dedicado a realizar tortas para eventos varios. Te contamos quiénes somos"
+Título: Modifique el título a: Pastelería Delicias|Quiénes somos
+
+Promociones: 
+Keywords: Agregué: "promociones, torta, tortas, pastel, dulce, chocolate, cumpleaños, fiesta, eventos, evento, infantil, tarta "
+Descripción: Emprendimiento dedicado a realizar tortas para eventos varios. Mirá nuestras promociones
+Título: Modifique el título a: Pastelería Delicias|Promociones
+
+Productos: 
+Keywords: Agregué: "catálogo, torta, tortas, pastel, dulce, chocolate, cumpleaños, fiesta, eventos, evento, infantil, tarta "
+Descripción: "Emprendimiento dedicado a realizar tortas para eventos varios. Mirá nuestro catálogo"
+Título: Modifique el título a: Pastelería Delicias|Catálogo
