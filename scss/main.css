@@ -138,6 +138,9 @@ p {
   .chef_ayuda {
     width: 90px;
   }
+  .navbar-brand {
+    width: 100px;
+  }
 }
 @media screen and (max-width: 425px) {
   .carousel {
@@ -147,10 +150,13 @@ p {
     display: block;
   }
   .index_menu {
-    margin-left: 0%;
+    margin-left: 10%;
   }
   .chef_ayuda {
     display: none;
+  }
+  .navbar-brand {
+    width: 150px;
   }
 }
 .galeria {
@@ -173,7 +179,6 @@ p {
 }
 
 .table {
-  margin: 50px;
   width: 100%;
 }
 
@@ -188,11 +193,16 @@ p {
 
 .index_menu {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: auto;
 }
 
 .parrafo {
   border: solid 1px;
   margin: 50px;
+}
+
+.imagengaleria img {
+  width: 100%;
 }
 
 iframe {
